@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fale Conosco</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ricardo Vicente Heinz">
+</head>
+
+<body>
+
+    <head>
+        <figure>
+            <img border="3" src="assets/img/01.jpg" title="Ricardo Vicente Heinz" alt="Ricardo Vicente Heinz">
+        </figure>
+        <h1>Ricardo Vicente Heinz</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="curriculum.html">Curriculum Vitae</a>
+                </li>
+                <li>
+                    <a href="fale-conosco.html">Fale Conosco</a>
+                </li>
+                <li>
+                    <a href="https://github.com/richeinz?tab=repositories" target="_blanc">Projetos Pessoais</a>
+                </li>
+            </ul>
+        </nav>
+    </head>
+
+    <section>
+        <h2>Fale Conosco</h2>
+        <form>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" id="name" required>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="sex" value="masculino">Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="feminino">Feminino
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="outros">Outros
+                </label>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div>
+                <label for="website">Website</label>
+                <input type="url" id="website">
+            </div>
+            <div>
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" required>
+            </div>
+            <div>
+                <label for="city">Cidade</label>
+                <input type="text" id="city" required>
+            </div>
+            <div>
+                <label for="state">Estado</label>
+                <select id="state" required>
+                    <option value="RS">RS</option>
+                    <option value="SC">SC</option>
+                    <option value="PR">PR</option>
+                    <option value="SP">SP</option>
+                </select>
+            </div>
+            <div>
+                <label for="subject">Assunto</label>
+                <select id="subject" required>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="critica">Crítica</option>
+                </select>
+            </div>
+            <div>
+                <label for="archive">Arquivo:</label>
+                <input type="file" id="archive">
+            </div>
+            <div>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" placeholder="Escreva sua mensagem aqui" maxlength="140" cols="30" rows="5"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </form>
+    </section>
+</body>
+
+</html>

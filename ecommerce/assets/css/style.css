@@ -16,7 +16,6 @@ body{
     clear: both;
     width: 100%;
     margin-bottom: 30px;
-    padding-top: 35px;
 }
 
 .main-header .container-img {
@@ -50,30 +49,256 @@ body{
     padding: 15px;
 }
 
-.menu .container-item .item a{
+.menu .container-item .item a {
     color: #525050;
     font-size: 15px;
     text-decoration: none;
 }
 
-.menu .container-item .item:hover{
-    background: #ECEAEA;
+.menu .container-item .item:hover {
+    background: rgb(230, 226, 226);
 }
 
 /* Main-form */
 .main-form {
     float: right;
-    width: 200px;
-    margin: 0 auto;
+    width: 400px;
+    margin-right: 150px;
+    margin-top: 40px;
 }
+
+.main-form .div-form input {
+    align-content: center;
+    padding: 5px;
+    width: 100%
+}
+
+/* Header nav */
+.container-nav {
+    background:whitesmoke;
+    width: 230px;
+    float: right;
+    margin-right: 150px;
+}
+
+.container-nav .container-item-nav {
+    padding: 0 10px;
+    list-style: none;
+}
+
+.container-nav .container-item-nav .item {
+    float: left;
+    width: calc(100% / 2);
+    text-align: center;
+    padding: 5px;
+}
+
+.container-nav .container-item-nav .item a {
+    color: #525050;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.container-nav .container-item-nav .item:hover {
+    background: rgb(230, 226, 226);
+}
+
+/*Div Products*/
+.container-produtcs {
+    width: 80%;
+    margin: 0 10%;
+    float: left;
+    font-size: 15px;
+}
+
+/* Session Sale */
+.sale {
+    float: left;
+    width: 100%;
+}
+
+.container-produtcs .container-text-sale {
+    float: right;
+    width: 39%;
+}
+
+.container-produtcs .sale .container-img-product {
+    float: left;
+    width: 59%;
+}
+
+
+.container-produtcs .sale .container-img-product img {
+    width: 95%;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+
+.container-produtcs .sale .container-text-sale {
+    margin-left: 15px;
+}
+
+.container-produtcs .sale .container-text-sale h1 {
+    float: left; 
+    margin-bottom: 45px;
+    font-size: 35px;
+}
+
+.container-produtcs .sale .container-text-sale p {
+    float: left;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.container-produtcs .sale .container-text-sale a {
+    float: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-produtcs .sale .container-text-sale a:hover{
+    background: rgb(230, 226, 226);
+}
+
+/* Session News */
+
+.news h1 {
+    float: left;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.news .container-bloc-product {
+    float: left;
+    margin: 10px 25px;
+    width: calc(85% / 3);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.news .container-bloc-product h3 {
+    text-align: center;
+}
+
+.news .container-bloc-product p {
+    text-align: center;
+}
+
+.news .container-bloc-product h4 {
+    text-align: center;
+}
+
+.news .container-bloc-product .container-img-product img {
+    float: left;
+    width: auto;
+    padding: 10px;
+}
+
+
+
+/* Session Best Sellers */
+.best-sellers h1 {
+    float: left;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 100%;;
+}
+
+.best-sellers .container-bloc-product {
+    float: left;
+    margin: 10px 25px;
+    width: calc(85% / 3);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.best-sellers .container-bloc-product h3 {
+    text-align: center;
+}
+
+.best-sellers .container-bloc-product p {
+    text-align: center;
+}
+
+.best-sellers .container-bloc-product h4 {
+    text-align: center;
+}
+
+.best-sellers .container-bloc-product .container-img-product img {
+    float: left;
+    width: auto;
+    padding: 10px;
+}
+
+
+
 
 /* Footer */
 .main-footer {
     float: left;
     width: 100%;
     color: white;
-    text-align: center;
     padding: 10px;
     background: red;
-    margin-top: 40px; 
+    margin-top: 40px;
+    color: black;
+}
+
+.main-footer .footer-left {
+    float: left;
+    width: 60%;
+}
+
+.main-footer .footer-right {
+    float: left;
+    width: 30%;
+}
+
+.main-footer .institutional {
+    float: left;
+    margin: 20px;
+}
+
+.main-footer .footer-left h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-footer .footer-left li {
+    font-size: 15px;
+    list-style: none;
+}
+
+.main-footer .account {
+    float: left;
+    margin: 20px;
+}
+
+.main-footer .newletter {
+    float: left;
+    width: 100%;
+}
+
+.main-footer .social-networks {
+    float: left;
+    width: 100%;
+}
+
+.main-footer .social-networks img {
+    float: left;
+    width: 25px;
+}
+
+.main-footer .footer {
+    float: right;
+    width: 100%;
+    background: black;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px;
 }

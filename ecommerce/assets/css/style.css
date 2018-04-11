@@ -180,6 +180,10 @@ body{
     padding: 10px;
 }
 
+.news .container-bloc-product a:hover{
+    background: rgb(206, 202, 202);
+}
+
 .news .container-bloc-product h3 {
     text-align: center;
 }
@@ -217,6 +221,10 @@ body{
     padding: 10px;
 }
 
+.best-sellers .container-bloc-product a:hover {
+    background: rgb(206, 202, 202);
+}
+
 .best-sellers .container-bloc-product h3 {
     text-align: center;
 }
@@ -243,7 +251,6 @@ body{
     float: left;
     width: 100%;
     color: white;
-    padding: 10px;
     background: red;
     margin-top: 40px;
     color: black;
@@ -261,17 +268,26 @@ body{
 
 .main-footer .institutional {
     float: left;
-    margin: 20px;
+    margin: 20px 170px;
 }
 
 .main-footer .footer-left h4 {
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-footer .footer-right h4 {
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .main-footer .footer-left li {
-    font-size: 15px;
+    font-size: 18px;
     list-style: none;
+    margin-bottom: 15px;
+    margin-left: -40px;
 }
 
 .main-footer .account {
@@ -284,6 +300,12 @@ body{
     width: 100%;
 }
 
+.main-footer .newletter input {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+}
+
 .main-footer .social-networks {
     float: left;
     width: 100%;
@@ -291,7 +313,9 @@ body{
 
 .main-footer .social-networks img {
     float: left;
-    width: 25px;
+    width: 15%;
+    margin-bottom: 10px;
+    margin-right: 10%;
 }
 
 .main-footer .footer {
@@ -301,4 +325,5 @@ body{
     color: whitesmoke;
     font-size: 15px;
     padding: 10px;
+    text-align: center;
 }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="txt_nome"><br>
+
+    <a href="http://google.com" onclick="return confirm('Deseja redirecionar?')" target="blanck">Google.com</a><br>
+    <a href="http://www.compasso.com.br" id="linkcompasso">Compasso.com.br</a>
+
+
+    <script>
+        var $link_compasso = document.getElementById('linkcompasso');
+        var input_nome = document.getElementById('txt_nome');
+        //console.log($link_compasso);
+        //$link_compasso.innerHTML = "Testando o Javascript";//innerHTML sobrescreve o conteúdo que está dentro da tag
+        $link_compasso.onclick = function(){
+            // texto do link em $link_compasso.innerHTML
+            //ou this.innerHTML;
+            input_nome.value = this.innerHTML;
+            return false;
+        };
+
+        input_nome.onfocus = function(){
+            input_nome.value = "Novo texto";
+        }
+
+        input_nome.onblur = function(){
+            input_nome.value = "";
+        }
+
+        
+
+
+
+        //evento focus = para entrar no campo
+        //evento blur = para sair do campo
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="valor1">Valor 1</label>
+    <input type="text" id="valor1">
+
+    <label for="valor2">Valor 1</label>
+    <input type="text" id="valor2">
+
+    <a href="#" id="btnSomar">Calcular</a>
+    <button id="btnLimpar">Limpar</button>
+
+    <div id="divResultado"></div>
+
+
+    <script>
+        //pegar os objetos
+        var valor1 = document.getElementById('valor1');
+        var valor2 = document.getElementById('valor2');
+        var link = document.getElementById('btnSomar');
+        var div = document.getElementById('divResultado');
+        var btnLimpar = document.getElementById('btnLimpar');
+
+        link.onclick = function(){
+            var resultado = parseInt(valor1.value) + parseInt(valor2.value);
+            div.innerHTML = resultado;
+        };
+
+        btnLimpar.onclick = function(){
+            div.innerHTML = "";
+        };
+
+    </script>
+    
+</body>
+</html>

@@ -180,8 +180,10 @@ body{
     padding: 10px;
 }
 
-.news .container-bloc-product a:hover{
+.news .container-bloc-product:hover{
+    
     background: rgb(206, 202, 202);
+    
 }
 
 .news .container-bloc-product h3 {

@@ -71,7 +71,6 @@ $(function(){ // função que será executada quando acabar de carregar sua pág
         }, 5000);
 
         $('html, body').animate({scrollTop: $(document).height()}, 2000);
-        
 
 
     });

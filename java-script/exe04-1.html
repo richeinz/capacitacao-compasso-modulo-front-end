@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exe04-1 - jQuery Ajax</title>
+    <style>
+        .hide {
+            display: none;
+        }
+        .frm-cep {
+            border: 1px solid #000;
+            float: left;
+            width: 30%;
+            padding: 10px;
+        }
+        .frm-cep input{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consulta CEP</h1>
+    <form action="" id="frm-cep" class="frm-cep">
+        CEP: <input type="text" id="txtCep" autofocus maxlength="9"><span class="hide"> Pesquisando ... </span><br>
+        Logradouro: <input type="text" id="txtLogradouro" disabled><br>
+        Bairro: <input type="text" id="txtBairro" disabled><br>
+        Localidade: <input type="text" id="txtLocalidade" disabled><br>
+        UF: <input type="text" id="txtUf" disabled><br>
+        
+        <button type="submit" id="btn-cadastrar">Cadastrar</button
+    </form>
+    
+
+
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+    <script src="scriptCep.js"></script
+</body>
+</html>

@@ -15,7 +15,7 @@ $(function () {
 
             //validar se o campo cep tem 8 caracteres, não tendo exibe um alert e limpa o campo
             if (txtCep.val().length != 9) {
-                alert('O CEP deve ser preenchido com 8 caracteres numéricos');
+                alert('O CEP deve ser preenchido com 9 caracteres numéricos');
                 txtCep.val("");
                 return false;
             }
